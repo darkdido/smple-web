@@ -3,6 +3,26 @@
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
     <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   </head>
+  <style>
+    .box{
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      width: 90%;
+      height: ;
+      border-radius: 30px;
+    }
+    .h9{
+      background-color: #1c1c1c;
+      padding: 10px;
+      bottom: 0;
+      left: 0;
+border: 1px solid orange;
+      text-align: center;
+      width: 100%;
+      color: white;
+      font-weight: bold;
+      font-family: arial;
+    }
+  </style>
 <ons-page>
     
     <ons-toolbar>
@@ -10,23 +30,25 @@
   
             <h3 class="center" style=" text-align: left; font-weight: bold; font-family: arial;">Kurd Store</h3>  
      
-    
+        
     
     </div> 
     </ons-toolbar>
   
     <ons-tabbar swipeable position="auto">
-      <ons-tab page="tab1.html" label="Home" icon="ion-ios-home, material:md-home" badge="" active>
+      <ons-tab page="tab1.html" label="KurdStore" icon="ion-ios-home, material:md-home" badge="" active>
       </ons-tab>
       <ons-tab page="tab2.html" label="Apps" icon="md-settings" active-icon="md-face">
       </ons-tab>
       <ons-tab page="tab3.html" label="Games" icon="md-settings" active-icon="md-face">
     </ons-tab>
+    <ons-tab page="tab4.html" label="About" icon="md-about" active-icon="md-face" badge="1">
+    </ons-tab>
     </ons-tabbar>
   </ons-page>
   
   <template id="tab1.html">
-    <ons-page id="Home">    <ons-page id="KurdStore">
+    <ons-page id="Home">  
       <p style="text-align: center;">
        <center>
         <ons-button onclick="alert('Hello World!')">Click Me</ons-button>
@@ -40,8 +62,90 @@
   <template id="tab2.html">
     <ons-page id="Apps">
       <p style="text-align: center;">
-        This is the second page.
+     
       </p>
+      <ons-list-header>Most Popular</ons-list-header>
+      <ons-list-item>
+        <a href="itms-services://?action=download-manifest&url=https://www.darkdido.github.io/smple-web/Downloads/videostar.xml">
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/videostar.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">VideoStart++</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+        </a>
+        
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/KINEMASTER.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">KineMaster Pro</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <br>
+      <ons-list-header>Cydia and Tweaks</ons-list-header>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/unc0ver.jpg" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">Unc0ver</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <br>
+      <ons-list-header>Social Medias</ons-list-header>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/facebook.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">FaceBook</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/insta.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">Instagram</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/whatsapp.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">WhatsApp</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/twitter.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">Twitter</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/youtube.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">Youtube</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <img class="list-item__thumbnail" src="Images/AppsImages/tiktok.png" width="40" height="40">
+        </div>
+        <div class="center">
+          <span class="list-item__title">TikTok</span><span class="list-item__subtitle">On the Internet</span>
+        </div>
+      </ons-list-item>
+
+
     </ons-page>
   </template>
 
@@ -52,6 +156,26 @@
       </p>
     </ons-page>
   </template>
+
+  <template id="tab4.html">
+    <ons-page id="About">
+      <p style="text-align: center;">
+        <br><br><br>
+        <center>
+       <div class="box">
+         <br>
+<h1 class="title">About me</h1>
+<p class="describe">Hello my name is dyari, am a WebDeveloper and GameProgrammer, etc.., I created this website to let you download cracked Applications and Games for free, Hope y'all enjoy it!,  Also if you have any trouble or if you found any bugs in the application please contact us..</p>
+<br>
+       </div>
+
+       <small class="h9">@All right reserved by dyari</small>
+      </center>
+      </p>
+    </ons-page>
+  </template>
+
+
   <script>
 document.addEventListener('prechange', function(event) {
   document.querySelector('ons-toolbar .center')
