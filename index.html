@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurd Networks - Hacks</title>
+</head>
+<body>
+    <style>
+        body,html{
+            background-image: url("imageds/background.png");
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  padding: 0px;
+  scroll-behavior: smooth;
+  margin:0px;
+overflow: auto;        
+}
+    .app{
+        box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+background: white;
+display: flex;
+border-radius: 30px;
+        width: 100%;
+    overflow: auto;
+    height:;
+    }
+    .describe{
+        color: gray;
+        font-weight: bold;
+        font-family: arial;
+    }
+    .btn{
+        color: black;
+        font-weight: bold;
+        box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        font-family: arial;
+        background: none;
+        border: 1px solid orange;
+        border-radius: 20px;
+        padding: 10px;
+        width: ;
+        cursor: pointer;
+        transition: .30s;
+
+
+        float: right;
+
+    }
+    .btn:hover{
+        border: 1px solid black;
+        box-shadow:0px 0px 0px;
+    }
+    .header{
+        z-index: 5;
+        background-color: white;
+        box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        padding: -20px;
+width: 100%;
+position: fixed;
+    }
+    .title{
+        color: black;
+        font-weight: bold;
+        font-family: arial;
+
+    }
+.h9{
+    color: white;
+
+    padding: 6px;
+width: 100%;
+text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    bottom: 0;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    background-color: #1c1c1c;
+
+}
+.box{
+    background-color: #1c1c1c;
+    padding: 5px;
+}
+.modal-container{
+background-color: rgba(0, 0, 0, 0.3);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 3;
+  top: 0;
+  left: 0;
+  height: 110vh;
+  width: 100vw;
+}
+.modal-container.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+.modal{
+   background-color: #fff;
+border-radius: 5px;
+
+    padding: 30px 50px;
+    background-color: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+.modal h1{
+    margin: 0;
+}
+.modal p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.close{
+    background-color: #47a386;
+border: 0;
+border-radius: 5px;
+cursor: pointer;
+
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+color: #fff;
+font-size: 14px;
+padding: 10px 25px;
+}
+.cont{
+    display: flex;
+}
+.chooseButton{
+color: white;
+font-weight: bold;
+font-family: arial;
+border: 1px solid orange;
+border-radius: 28px;
+padding: 10px;
+transition: 0.30s;
+width: 30%;
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+background: none;
+
+}
+.chooseButton:hover{
+    border: 1px solid black;
+}
+.status{
+background: none;
+border: 1px solid orange;
+border-radius: 25px;
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+position: fixed;
+z-index: 3;
+right: 0;
+padding: 15px;
+float: right;
+width: 18%;
+text-align: center;
+}
+
+.status2{
+background: none;
+border: 1px solid orange;
+border-radius: 25px;
+box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+margin-right: -20px;
+padding: 5px;
+float: right;
+width: 35%;
+text-align: center;
+}
+
+
+    </style>
+    <div class="header">
+        <h1 class="title">Kurd Networks</h1>
+        <div class="status" style="top: 0; margin-top: 15px">
+            <small class="describe" style="color: green;">WORKING</small>
+          </div>
+    </div>
+<br><br><br>
+<br>
+
+<br><br><br><br>
+<center>
+<button id="android1" onclick="android()" class="chooseButton">ANDROID</button>
+<button style="border: 1px solid black;" id="ios1" onclick="ios()" class="chooseButton">IOS</button>
+<button id="pc1" onclick="pc()" class="chooseButton">PC</button><br><br><hr><br><br>
+</center>
+<center>
+    <div class="box" id="#ios">
+       <small class="describe">Whats New? </small>
+    </div>
+
+</center>
+<!-- APPS -->
+
+    <p class="describe" style="color: white;">Feautered: </p>
+
+   <!-- APP 7 -->
+
+<div class="app">
+<img src="imageds/GamesImages/Vandam3D.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Vandam3D</p>
+ 
+<button  id="open" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/Vandam3D.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Vandam3D</p>        
+
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    The Game contains 6 modes!, Story Mode, Training Mode, Multplayer Mode, Running Mode, Horror Mode, QuickPlay Mode, Its available on PlayStore for free! 
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 0.2</p>
+    </div>
+</div>
+
+<br><br>
+<!-- APPS -->
+<center>
+    <div class="box">
+       <small class="describe">APPS: </small>
+    </div>
+<br>
+</center>
+<!-- APP 1 -->
+<div class="app">
+<img src="imageds/fb.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Facebook</p>
+ 
+<button  id="open1" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container1">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/facebook.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Facebook</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Save feed videos<br/>
+    Like confirmation<br/>
+    No story and food ads<br/>
+    Save story images and videos<br/>
+    Disable auto-advance in stories<br/>
+    Disable marking stories<br/>
+    Disable typing status in messages<br/>
+    Disable marking messages as seen<br/>
+
+</p>
+
+<button onclick="Facebook()" class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close1" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 316.0</p>
+    </div>
+</div>
+
+
+<!-- APP 2 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/insta.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Instagram</p>
+ 
+<button id="open2" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container2">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/insta.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Instagram</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    -Tweaked version of Instagram.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close2" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 119.0</p>
+    </div>
+</div>
+
+<!-- APP 3 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/twitter.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Twitter</p>
+ 
+<button id="open3" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container3">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/twitter.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Twitter</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    -Tweaked version of Twitter<br/>
+    -Sharing Enhancements<br/>
+    -App Integrations<br/>
+    -Additional Enhancements<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close3" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 8.70.2</p>
+    </div>
+</div>
+
+<!-- APP 4 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/cutecutpro.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Cute Cut Pro</p>
+ 
+<button id="open4" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container4">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/cutecutpro.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Cute Cut Pro</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+  PRO Feauteres.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close4" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 198.2</p>
+    </div>
+</div>
+
+
+<!-- APP 5 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/KINEMASTER.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">KineMaster Pro</p>
+ 
+<button id="open5" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container5">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/KINEMASTER.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">KineMaster Pro</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   PRO Feauteres.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close5" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 116.5</p>
+    </div>
+</div>
+
+<!-- APP 6 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/picsart.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">PicsArt</p>
+ 
+<button id="open6" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container6">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/picsart.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">PICSART </p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Cracked version of picsart.
+   
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close6" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 14.6.1</p>
+    </div>
+</div>
+
+<!-- APP 7 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/tiktok.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">TikTok++</p>
+ 
+<button id="open7" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+<!-- Modal -->
+<div class="modal-container" id="modal_container7">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/tiktok.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">TikTok++</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Download Videos<br/>
+    Download User's Profile Image<br/>
+    LIVE enhancements (long Press screen for 1 second)<br/>
+    Type more than 50 characters in live streams<br/>
+    FOLLOWING page enhancements (long Press screen for 1 second)<br/>
+    Display all gift prizes in live streams<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close7" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 19.3</p>
+    </div>
+</div>
+<!-- APP 8 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/spotify.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Spotify</p>
+ 
+<button id="open8" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+<!-- Modal -->
+<div class="modal-container" id="modal_container8">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/spotify.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Spotify</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    -No Ads<br/>
+    -Seeking Enabled<br/>
+    -No Forced Shuffle<br/>
+    -Unlimited Skips<br/>
+    -Extreme Quality stream enabled<br/>
+    -Import songs from Music app<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close8" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 8.4.79</p>
+    </div>
+</div>
+<!-- APP 9 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/luma.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Luma Fusion Pro</p>
+ 
+<button id="open9" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container9">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/luma.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Luma Fusion Pro</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    -LumaFusion is a powerful multi-track video editor used by mobile journalists, filmmakers and professional video producers to tell compelling video stories.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close9" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2.0.3</p>
+    </div>
+</div>
+
+<!-- APP 10 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/unc0ver.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Unc0ver</p>
+ 
+<button id="open10" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container10">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/unc0ver.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Unc0ver</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   Jailbreak for IOS!
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close10" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 8.0.2</p>
+    </div>
+</div>
+
+<!-- APP 11 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/videostar.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">VideoStar++</p>
+ 
+<button id="open11" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container11">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/videostar.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">VideoStar</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   VIP Feauteres
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close11" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 8.3.2</p>
+    </div>
+</div>
+
+<!-- APP 12 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/whatsapp.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">WhatsApp</p>
+ 
+<button id="open12" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+<!-- Modal -->
+<div class="modal-container" id="modal_container12">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/whatsapp.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">WhatsApp</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    - Stealth Mode<br/>
+- Disable Read Receipts<br/>
+- Selective Read Receipts<br/>
+- Disable Delivery Receipts<br/>
+- Custom Theme<br/>
+- Custom Text Color<br/>
+
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close12" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2.20.80</p>
+    </div>
+</div>
+
+<!-- APP 13 -->
+<br>
+<div class="app">
+<img src="imageds/AppsImages/youtube.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Youtube++</p>
+ 
+<button id="open30" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+<!-- Modal -->
+<div class="modal-container" id="modal_container30">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/AppsImages/youtube.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">Youtube++</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Delete Official Youtube before installing this oneInterface Enhancements:<br/>
+    • In-App Web Browser<br/>
+    • White Keyboard<br/>
+    • Hide upload button<br/>
+    • Choose Default Main Page<br/>
+    • Block promoted ads<br/>
+    • Block video ads<br/>
+    • Disable age restrictions<br/>
+
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close30" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 13.24.9</p>
+    </div>
+</div>
+
+<!-- END OF APPS -->
+
+
+
+
+
+
+
+<br><br>
+<!-- GAMES -->
+<center>
+    <div class="box">
+       <small class="describe">GAMES: </small>
+    </div>
+<br>
+</center>
+<!-- GAME 1 -->
+<div class="app">
+<img src="imageds/GamesImages/8ball.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 25px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">8ball Pool</p>
+ 
+<button id="open13" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container13">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/8ball.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">8ball pool</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    - Infinity Guidlines always active.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Do not abuse, I'm not taking any responsibility if you get banned :)
+
+</p>
+<br>
+        <button id="close13" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 5.7.1</p>
+    </div>
+</div>
+
+<!-- GAME 2 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/clashofclans.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 25px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Clash Of Clans</p>
+ 
+<button id="open14" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container14">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/clashofclans.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">CLASH OF CLANS</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+    Unlimited Resources<br/>
+    Unlimited gems, gold and elixir! Even the dark one.<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close14" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 9.258.5</p>
+    </div>
+</div>
+
+<!-- GAME 3 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/clashroyale.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Clash Royale</p>
+ 
+<button id="open15" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container15">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/clashroyale.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">CLASH ROYALE</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    You have unlimited gems and gold! Ah... Have you heard about our mysterious bags with tons of cards?
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close15" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 3.2803.4</p>
+    </div>
+</div>
+
+<!-- GAME 4 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/BTD.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">BTD</p>
+ 
+<button id="open16" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container16">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/BTD.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">BTD</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   -Infinite life/medal.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close16" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 1.4.1</p>
+    </div>
+</div>
+
+<!-- GAME 5 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/amongus.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Amongus</p>
+ 
+<button id="open17" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container17">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/amongus.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">AMONGUS</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    1. Unlocked Skins<br/>
+    2. Unlocked Pets<br/>
+    3. Unlocked Hats<br/>
+    4. WIDE RANGE OF LIGHT (NEW)<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close17" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2021.12.15</p>
+    </div>
+</div>
+
+<!-- GAME 6 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/fortnite.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Fornite</p>
+ 
+<button id="open18" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container18">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/fortnite.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">FORTNITE</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Fortnite Game
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close18" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 14.20</p>
+    </div>
+</div>
+
+<!-- GAME 7 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/gettingoverit.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Getting Over It</p>
+ 
+<button id="open19" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container19">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/gettingoverit.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">GETTING OVER IT</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    • Climb up an enormous mountain with nothing but a hammer and a pot.<br/>
+
+• Listen as I make philosophical observations about the problem at hand.<br/>
+
+• Between 2 and ∞ hours of agonizing gameplay, depending. The median time to finish for my playtesters was 5 hours, but the mean was closer to ∞.<br/>
+
+• Lose all your progress, over and over.<br/>
+
+• Feel new types of frustration you didn't know you were capable of.<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close19" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 1.13</p>
+    </div>
+</div>
+
+<!-- GAME 8 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/candycrash.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Candy Crash</p>
+ 
+<button id="open20" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container20">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/candycrash.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">CANDY CRASH</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    • Infinite Lives<br/>
+    • Freeze Boosters.<br/>
+    • Please delete the orginal first.<br/>
+    • Tweaked version.<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close20" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 1.212.0.1</p>
+    </div>
+</div>
+
+<!-- GAME 9 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/agario.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Agar.io</p>
+ 
+<button id="open21" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container21">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/agario.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">AGAR.IO</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    1. MOD Menu<br/>
+    2. Custom Zoom // Static Zoom, type any value!<br/>
+    3. Toggle Dark Mode // Toggle Dark Mode in-game (make sure its disabled in settings)<br/>
+    4. Smooth Gameplay // Removes some clutter to make gameplay smooth<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close21" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2.20.3</p>
+    </div>
+</div>
+
+<!-- GAME 10 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/bully.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Bully</p>
+ 
+<button id="open22" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container22">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/bully.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">BULLY</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    ***PLEASE NOTE: This game is officially supported on the following devices only: iPhone 5, 5s, 5c, 6, 6s, 6 Plus, SE, 7, 7 Plus, iPod Touch 6th Gen, iPad Mini 2, 3 & 4, iPad 4th Gen, iPad Air 1 & 2, and iPad Pro.***
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close22" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 1.1</p>
+    </div>
+</div>
+
+<!-- GAME 11 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/HILLCLIMB.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Hill Climb</p>
+ 
+<button id="open23" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container23">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/HILLCLIMB.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">HILL CLIMB</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    The Game contains 6 modes!, Story Mode, Training Mode, Multplayer Mode, Running Mode, Horror Mode, QuickPlay Mode, Its available on PlayStore for free! 
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close23" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 0.2</p>
+    </div>
+</div>
+
+<!-- GAME 12 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/GEOMETRY.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Geometry Dash</p>
+ 
+<button id="open24" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container24">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/GEOMETRY.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">GEOMETRY DASH</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    -Lots of levels with unique soundtracks! <br>
+    -Build and share your own levels using the level editor! <br>
+    -Unlock new icons and colors to customize your character! <br>
+    -Fly rockets, flip gravity and much more! <br>
+    -Use practice mode to sharpen your skills! <br>
+    -Game Center achievements with rewards!<br>
+    -Challenge yourself with the near impossible!!<br>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close24" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2.11</p>
+    </div>
+</div>
+
+<!-- GAME 13 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/pubg.jpg" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Pubg Mobile</p>
+ 
+<button id="open25" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container25">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/pubg.jpg" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">PUBG MOBILE</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    The Game contains 6 modes!, Story Mode, Training Mode, Multplayer Mode, Running Mode, Horror Mode, QuickPlay Mode, Its available on PlayStore for free! 
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Do not abuse, I'm not taking any responsibility if you get banned :)
+
+</p>
+<br>
+        <button id="close25" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 0.2</p>
+    </div>
+</div>
+
+<!-- GAME 14 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/SubwaySurfers.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Subway Surfers</p>
+ 
+<button id="open26" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container26">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/SubwaySurfers.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">SUBWAY SURFERS</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Subway Surfers hacked
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close26" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2.5.1 </p>
+    </div>
+</div>
+
+<!-- GAME 15 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/MINECRAFT.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">Minecraft</p>
+ 
+<button id="open27" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container27">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/MINECRAFT.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">MINECRAFT</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Explore infinite worlds and build everything from the simplest of homes to the grandest of castles. Play in creative mode with unlimited resources or mine deep into the world in survival mode, crafting weapons and armor to fend off dangerous mobs. Create, explore and survive alone or play with friends on all different devices.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close27" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 1.16.201</p>
+    </div>
+</div>
+
+<!-- GAME 16 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/gtasa.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">GTA SA</p>
+ 
+<button id="open28" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container28">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/gtasa.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">GTA SA</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    A hugely ambitious action blockbuster, Grand Theft Auto: San Andreas is filled with sharp satire, fascinatingly flawed characters, and a huge variety of ways to play. Explore the cities and countryside of a vividly realized fictional version of the southwestern United States. You can tackle story-driven quests, gorge on fast food, outrun the police, or obey every traffic light—it’s up to you. This enormous game deftly displays Rockstar’s unique mastery of open-world design, and it never fails to entertain.
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close28" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 2.2</p>
+    </div>
+</div>
+
+<!-- GAME 17 -->
+<br>
+<div class="app">
+<img src="imageds/GamesImages/limbo.png" alt="" height="30" width="30" style="margin-top: 9px; margin-left: 6px; border-radius: 20px;"><br/><br/>
+    <p class="describe" style="margin-left: 7px;">LIMBO</p>
+ 
+<button id="open29" class="btn" style="float: right; right: 0px; margin-right: 13px; margin-top: 6px; position: absolute;">Download</button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal-container" id="modal_container29">
+    
+    <div class="modal">
+        <!-- APP ICON -->
+        <div class="cont">
+<img src="imageds/GamesImages/limbo.png" alt="" height="60" width="60" style="border-radius: 25px;">
+<!-- APP NAME -->
+<p class="describe" style="margin-left: 7px; margin-top: 20px;">LIMBO</p>        
+</div>
+<div class="status2" style="margin-top: -50px;">
+    <small class="describe" style="color: green;">Working</small>    
+    </div>
+<hr>
+<p class="describe">Info about</p>
+
+<!-- INFO ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+    Gameinformer’s “Best Downloadable”<br/>
+    Gamespot’s “Best Puzzle Game”<br/>
+    Kotaku’s “The Best Indie Game”<br/>
+    GameReactor’s “Digital Game of the Year”<br/>
+    Spike TV’s “Best Independent Game”<br/>
+    X-Play’s “Best Downloadable Game”<br/>
+    IGN’s “Best Horror Game”<br/>
+
+</p>
+
+<button class="close">Download</button><br>
+<hr>
+<!-- WARNINGS -->
+<p class="describe" style="color: red;">WARNINGS</p>
+
+<!-- WARNINGS ABOUT THE APP -->
+
+<p class="describe" style="color: black">
+
+   No warnings for this game.
+
+</p>
+<br>
+        <button id="close29" class="close">Close</button>
+        <p class="describe" style="color: black; bottom: 0; right: 0;">Version: 1.1.19</p>
+    </div>
+</div>
+
+<!-- END OF GAMES -->
+
+
+<small class="h9">@All right reserved by KurdNetworks</small>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script>
+    // Vandam3D
+const open = document.getElementById('open');
+const modal_containter = document.getElementById('modal_container');
+const close = document.getElementById('close');
+
+open.addEventListener('click', () => {
+modal_containter.classList.add('show');
+});
+
+close.addEventListener('click', () => {
+modal_containter.classList.remove('show');
+});
+
+// FACBOOK
+const open1 = document.getElementById('open1');
+const modal_containter1 = document.getElementById('modal_container1');
+const close1 = document.getElementById('close1');
+
+open1.addEventListener('click', () => {
+modal_containter1.classList.add('show');
+});
+
+close1.addEventListener('click', () => {
+modal_containter1.classList.remove('show');
+});
+
+// INSTAGRAM
+const open2 = document.getElementById('open2');
+const modal_containter2 = document.getElementById('modal_container2');
+const close2 = document.getElementById('close2');
+
+open2.addEventListener('click', () => {
+modal_containter2.classList.add('show');
+});
+
+close2.addEventListener('click', () => {
+modal_containter2.classList.remove('show');
+
+});
+
+// TWITTER
+const open3 = document.getElementById('open3');
+const modal_containter3 = document.getElementById('modal_container3');
+const close3 = document.getElementById('close3');
+
+open3.addEventListener('click', () => {
+modal_containter3.classList.add('show');
+});
+
+close3.addEventListener('click', () => {
+modal_containter3.classList.remove('show');
+
+});
+
+// CUTE CUT PRO
+const open4 = document.getElementById('open4');
+const modal_containter4 = document.getElementById('modal_container4');
+const close4 = document.getElementById('close4');
+
+open4.addEventListener('click', () => {
+    modal_containter4.classList.add('show');
+});
+
+close4.addEventListener('click', () => {
+    modal_containter4.classList.remove('show');
+
+});
+
+
+// KINEMASTER PRO
+const open5 = document.getElementById('open5');
+const modal_containter5 = document.getElementById('modal_container5');
+const close5 = document.getElementById('close5');
+
+open5.addEventListener('click', () => {
+    modal_containter5.classList.add('show');
+});
+
+close5.addEventListener('click', () => {
+    modal_containter5.classList.remove('show');
+
+});
+
+
+// PICSART 
+const open6 = document.getElementById('open6');
+const modal_containter6 = document.getElementById('modal_container6');
+const close6 = document.getElementById('close6');
+
+open6.addEventListener('click', () => {
+    modal_containter6.classList.add('show');
+});
+
+close6.addEventListener('click', () => {
+    modal_containter6.classList.remove('show');
+
+});
+
+// TIKTOK 
+const open7 = document.getElementById('open7');
+const modal_containter7 = document.getElementById('modal_container7');
+const close7 = document.getElementById('close7');
+
+open7.addEventListener('click', () => {
+    modal_containter7.classList.add('show');
+});
+
+close7.addEventListener('click', () => {
+    modal_containter7.classList.remove('show');
+
+});
+
+// SPOTIFY 
+const open8 = document.getElementById('open8');
+const modal_containter8 = document.getElementById('modal_container8');
+const close8 = document.getElementById('close8');
+
+open8.addEventListener('click', () => {
+    modal_containter8.classList.add('show');
+});
+
+close8.addEventListener('click', () => {
+    modal_containter8.classList.remove('show');
+
+});
+
+// LUMA FUSION 
+const open9 = document.getElementById('open9');
+const modal_containter9 = document.getElementById('modal_container9');
+const close9 = document.getElementById('close9');
+
+open9.addEventListener('click', () => {
+    modal_containter9.classList.add('show');
+});
+
+close9.addEventListener('click', () => {
+    modal_containter9.classList.remove('show');
+
+});
+
+// UNC0VER 
+const open10 = document.getElementById('open10');
+const modal_containter10 = document.getElementById('modal_container10');
+const close10 = document.getElementById('close10');
+
+open10.addEventListener('click', () => {
+    modal_containter10.classList.add('show');
+});
+
+close10.addEventListener('click', () => {
+    modal_containter10.classList.remove('show');
+
+});
+
+// VIDEOSTAR 
+const open11 = document.getElementById('open11');
+const modal_containter11 = document.getElementById('modal_container11');
+const close11 = document.getElementById('close11');
+
+open11.addEventListener('click', () => {
+    modal_containter11.classList.add('show');
+});
+
+close11.addEventListener('click', () => {
+    modal_containter11.classList.remove('show');
+
+});
+
+// WHATSAPP 
+const open12 = document.getElementById('open12');
+const modal_containter12 = document.getElementById('modal_container12');
+const close12 = document.getElementById('close12');
+
+open12.addEventListener('click', () => {
+    modal_containter12.classList.add('show');
+});
+
+close12.addEventListener('click', () => {
+    modal_containter12.classList.remove('show');
+
+});
+
+// YOUTUBE 
+const open30 = document.getElementById('open30');
+const modal_containter30 = document.getElementById('modal_container30');
+const close30 = document.getElementById('close30');
+
+open30.addEventListener('click', () => {
+    modal_containter30.classList.add('show');
+});
+
+close30.addEventListener('click', () => {
+    modal_containter30.classList.remove('show');
+
+});
+
+// 8BALL POOL 
+const open13 = document.getElementById('open13');
+const modal_containter13 = document.getElementById('modal_container13');
+const close13 = document.getElementById('close13');
+
+open13.addEventListener('click', () => {
+    modal_containter13.classList.add('show');
+});
+
+close13.addEventListener('click', () => {
+    modal_containter13.classList.remove('show');
+
+});
+
+
+// CLASH OF CLANS 
+const open14 = document.getElementById('open14');
+const modal_containter14 = document.getElementById('modal_container14');
+const close14 = document.getElementById('close14');
+
+open14.addEventListener('click', () => {
+    modal_containter14.classList.add('show');
+});
+
+close14.addEventListener('click', () => {
+    modal_containter14.classList.remove('show');
+
+});
+
+
+// CLASH ROYALE 
+const open15 = document.getElementById('open15');
+const modal_containter15 = document.getElementById('modal_container15');
+const close15 = document.getElementById('close15');
+
+open15.addEventListener('click', () => {
+    modal_containter15.classList.add('show');
+});
+
+close15.addEventListener('click', () => {
+    modal_containter15.classList.remove('show');
+
+});
+
+// BTD 
+const open16 = document.getElementById('open16');
+const modal_containter16 = document.getElementById('modal_container16');
+const close16 = document.getElementById('close16');
+
+open16.addEventListener('click', () => {
+    modal_containter16.classList.add('show');
+});
+
+close16.addEventListener('click', () => {
+    modal_containter16.classList.remove('show');
+
+});
+
+// AMONGUS 
+const open17 = document.getElementById('open17');
+const modal_containter17 = document.getElementById('modal_container17');
+const close17 = document.getElementById('close17');
+
+open17.addEventListener('click', () => {
+    modal_containter17.classList.add('show');
+});
+
+close17.addEventListener('click', () => {
+    modal_containter17.classList.remove('show');
+
+});
+
+
+// FORTNITE 
+const open18 = document.getElementById('open18');
+const modal_containter18 = document.getElementById('modal_container18');
+const close18 = document.getElementById('close18');
+
+open18.addEventListener('click', () => {
+    modal_containter18.classList.add('show');
+});
+
+close18.addEventListener('click', () => {
+    modal_containter18.classList.remove('show');
+
+});
+
+
+// GETTING OVER IT 
+const open19 = document.getElementById('open19');
+const modal_containter19 = document.getElementById('modal_container19');
+const close19 = document.getElementById('close19');
+
+open19.addEventListener('click', () => {
+    modal_containter19.classList.add('show');
+});
+
+close19.addEventListener('click', () => {
+    modal_containter19.classList.remove('show');
+
+});
+
+
+// CANDY CRASH 
+const open20 = document.getElementById('open20');
+const modal_containter20 = document.getElementById('modal_container20');
+const close20 = document.getElementById('close20');
+
+open20.addEventListener('click', () => {
+    modal_containter20.classList.add('show');
+});
+
+close20.addEventListener('click', () => {
+    modal_containter20.classList.remove('show');
+
+});
+
+
+// AGAR.IO 
+const open21 = document.getElementById('open21');
+const modal_containter21 = document.getElementById('modal_container21');
+const close21 = document.getElementById('close21');
+
+open21.addEventListener('click', () => {
+    modal_containter21.classList.add('show');
+});
+
+close21.addEventListener('click', () => {
+    modal_containter21.classList.remove('show');
+
+});
+
+// BULLY 
+const open22 = document.getElementById('open22');
+const modal_containter22 = document.getElementById('modal_container22');
+const close22 = document.getElementById('close22');
+
+open22.addEventListener('click', () => {
+    modal_containter22.classList.add('show');
+});
+
+close22.addEventListener('click', () => {
+    modal_containter22.classList.remove('show');
+
+});
+
+
+// HILL CLIMB 
+const open23 = document.getElementById('open23');
+const modal_containter23 = document.getElementById('modal_container23');
+const close23 = document.getElementById('close23');
+
+open23.addEventListener('click', () => {
+    modal_containter23.classList.add('show');
+});
+
+close23.addEventListener('click', () => {
+    modal_containter23.classList.remove('show');
+
+});
+
+// GEOMETRY DASH 
+const open24 = document.getElementById('open24');
+const modal_containter24 = document.getElementById('modal_container24');
+const close24 = document.getElementById('close24');
+
+open24.addEventListener('click', () => {
+    modal_containter24.classList.add('show');
+});
+
+close24.addEventListener('click', () => {
+    modal_containter24.classList.remove('show');
+
+});
+
+// PUBG MOBILE 
+const open25 = document.getElementById('open25');
+const modal_containter25 = document.getElementById('modal_container25');
+const close25 = document.getElementById('close25');
+
+open25.addEventListener('click', () => {
+    modal_containter25.classList.add('show');
+});
+
+close25.addEventListener('click', () => {
+    modal_containter25.classList.remove('show');
+
+});
+
+// SUBWAY SURFERS 
+const open26 = document.getElementById('open26');
+const modal_containter26 = document.getElementById('modal_container26');
+const close26 = document.getElementById('close26');
+
+open26.addEventListener('click', () => {
+    modal_containter26.classList.add('show');
+});
+
+close26.addEventListener('click', () => {
+    modal_containter26.classList.remove('show');
+
+});
+
+// MINECRAFT 
+const open27 = document.getElementById('open27');
+const modal_containter27 = document.getElementById('modal_container27');
+const close27 = document.getElementById('close27');
+
+open27.addEventListener('click', () => {
+    modal_containter27.classList.add('show');
+});
+
+close27.addEventListener('click', () => {
+    modal_containter27.classList.remove('show');
+
+});
+
+// GTA SA 
+const open28 = document.getElementById('open28');
+const modal_containter28 = document.getElementById('modal_container28');
+const close28 = document.getElementById('close28');
+
+open28.addEventListener('click', () => {
+    modal_containter28.classList.add('show');
+});
+
+close28.addEventListener('click', () => {
+    modal_containter28.classList.remove('show');
+
+});
+
+// LIMBO 
+const open29 = document.getElementById('open29');
+const modal_containter29 = document.getElementById('modal_container29');
+const close29 = document.getElementById('close29');
+
+open29.addEventListener('click', () => {
+    modal_containter29.classList.add('show');
+});
+
+close29.addEventListener('click', () => {
+    modal_containter29.classList.remove('show');
+
+});
+
+function ios()
+{
+window.open("#ios", "_self");
+var android = document.getElementById('android1');
+android.style.border = '1px solid orange';
+var ios = document.getElementById('ios1');
+ios.style.border = '1px solid black';
+var pc = document.getElementById('pc1');
+pc.style.border = '1px solid orange';
+}
+function android()
+{
+    window.open("#android", "_self");
+    var android = document.getElementById('android1');
+android.style.border = '1px solid black';
+var ios = document.getElementById('ios1');
+ios.style.border = '1px solid orange';
+var pc = document.getElementById('pc1');
+pc.style.border = '1px solid orange';
+}
+function pc()
+{
+    window.open("#pc", "_self");
+    var android = document.getElementById('android1');
+android.style.border = '1px solid orange';
+var ios = document.getElementById('ios1');
+ios.style.border = '1px solid orange';
+var pc = document.getElementById('pc1');
+pc.style.border = '1px solid black';
+}
+
+
+// APPS DOWNLOAD
+function Vandam3D()
+{
+    window.open('https://play.google.com/store/apps/details?id=com.KurdNetworkss.Vandam3D&hl=en&gl=US', '_self');
+alert("Vandam3D started downloading...");
+window.open('', '_self');
+}
+function Facebook()
+{
+    window.open('itms-services://?action=download-manifest&amp;url=Downloads/fb.xml', '_self');
+alert("Vandam3D started downloading...");
+window.open('', '_self');
+}
+
+</script>
+
+
+
+</body>
+</html>
